@@ -13,29 +13,29 @@ def is_enabled(value, default):
         return default
 
 #main variabless
-API_ID = int(environ.get('API_ID', '19341831'))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '24955235'))
+API_HASH = environ.get('API_HASH', 'f317b3f7bbe390346d8b46868cff0de8')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1076927614 1086049246').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/filmcity4youu")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002193397974'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Filmcity_Request')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002211425646').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "")
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5706788169').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/NeonGhost_Network")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002034727890'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MOVIE_REQUESTX')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002054782510').split()]
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Safari")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telefiles')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002193397974'))
-QR_CODE = environ.get('QR_CODE', 'https://i.postimg.cc/t42NPd70/IMG-20240907-161902-922.jpg')
+DATABASE_NAME = environ.get('DATABASE_NAME', "newbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegraam_files')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002034727890'))
+QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/b27d7053ef8a7e6459d9a.jpg)
 START_IMG = environ.get('START_IMG', 'https://i.postimg.cc/T12HxYsm/28920a67-174f-4628-90f8-87e158c2662a.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002151964482'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002170931554'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002034727890'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002034727890'))
 URL = environ.get('URL', 'af_mhakal')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002193397974'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002281936352'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Filmcity_4u/86")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "41091444ad674cf6d78da75475a07df05cf9a03b")
@@ -53,12 +53,12 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '-1001493446033')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001980994910')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002177384458'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002185647844')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002309557046'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002106690102')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002193397974'))
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002281936352'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
