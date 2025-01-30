@@ -19,18 +19,18 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5706788169').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/NeonGhost_Network")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002034727890'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002281936352'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MOVIE_REQUESTX')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002054782510').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "newbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegraam_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002034727890'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002281936352'))
 QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/b27d7053ef8a7e6459d9a.jpg)
 START_IMG = environ.get('START_IMG', 'https://i.postimg.cc/T12HxYsm/28920a67-174f-4628-90f8-87e158c2662a.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002034727890'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002034727890'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002281936352'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002281936352'))
 URL = environ.get('URL', 'af_mhakal')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
